@@ -1,0 +1,223 @@
+/* !GENERAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #000;
+    overflow-x: hidden;
+}
+
+.scrollmagic-pin-spacer {
+    position: static !important;
+}
+
+/* !LAYOUT */
+
+/* *HEADER* */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+
+}
+header h1 a {
+    font-family: 'Abril Fatface';
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* *MAIN* */
+.slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto 0 auto;
+    width: 90%;
+    color: #fff;
+    background: #000;
+}
+
+.hero-image {
+    position: relative;
+    flex: 1;
+    flex-basis: 20rem;
+    /* Settato per le animazioni GSAP di scaling */
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-description {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-basis: 25rem;
+    padding-left: 5rem;
+}
+
+.hero-description h2 {
+    font-family: 'Abril Fatface';
+    font-size: 4rem;
+}
+
+.gallery a {
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    position: relative;
+    overflow: hidden;
+}
+
+.title-swipe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: darken;
+}
+
+.t-swipe1 {
+    background:#ff01f9;
+}
+
+.t-swipe2 {
+    background:#fcad1c;
+}
+
+.t-swipe3 {
+    background:#7dfc12;
+}
+
+.hero-description p {
+    font-size: 1.5rem;
+    padding: 2rem 0rem;
+    color: rgb(223, 223, 223);
+}
+
+.explore {
+    align-self: start;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.explore:hover {
+    font-size: 18px;
+    scale: 1.1;
+}
+
+.logo-span {
+    color: #ff01f9;
+}
+
+.dylan-span {
+    color: #fcad1c;
+}
+
+.lips-span {
+    color: #7dfc12;
+}
+
+.reveal-image, .reveal-text {
+    position: absolute;
+    left: 0;
+    top: -15%;
+    width: 100%;
+    height: 150%;
+    background: #000;
+}
+
+
+/* !G A L L E R Y */
+.cover1,
+.cover2,
+.cover3,
+.cover4,
+.cover5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 1rem;
+    width: 70%;
+    min-height: 90vh;
+    color: #fff;
+}
+
+.cover-image {
+    width: 37vw;
+    height: 70vh;
+}
+
+.cover-image-hor {
+    width: 40vw;
+    height: 60vh;
+}
+
+.cover-image-hor img {
+    width: 100%;
+    height: 100%;
+}
+
+.cover-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.cover-text {
+    flex: 1;
+    position: relative;
+}
+
+.cover-text h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4.5rem;
+    margin-right: 30px;
+
+}
+
+.cover1 h1 {
+    color: #048ea8;
+}
+
+.cover2 h1 {
+    color: #fffe65;
+}
+
+.cover3 h1 {
+    color: #ff0007;
+}
+
+.cover4 h1 {
+    color: #04bf26;
+}
+
+.cover5 h1 {
+    color: #9c0051;
+}
+
+
+
+
+
+
